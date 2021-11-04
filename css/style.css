@@ -1,7 +1,140 @@
-:root * {
+:root {
   --background: #f1f1f1;
   --backgroundContent: #fff;
   --textColor: #000;
   --boxShadowContent: #ccc;
   --borderColorContent: #f1f1f1;
+  --borderColorButton: #f1f1f1;
+}
+
+body {
+  background: var(--background);
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--textColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0 0 5px 0;
+  color: #7294f5;
+}
+
+.dark-mode {
+  text-align: center;
+  width: 520px;
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  background: #ccc;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px var(--boxShadowContent);
+  border-radius: 1.25rem;
+}
+
+.capa {
+  height: 260px;
+  width: 100%;
+  background: #ccc;
+  position: relative;
+  background-image: url("https://picsum.photos/id/1025/660/600");
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
+.img-profile {
+  position: absolute;
+  bottom: -75px;
+  left: 45px;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.info {
+  background-color: var(--backgroundContent);
+  border-radius: 0 0 20px 20px;
+}
+
+.info-margin {
+  padding: 105px 50px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+.redes-sociais {
+  float: left;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.btn .fa-github {
+  width: 105px;
+  background: #0e1117;
+  border: 1px solid var(--borderColorButton);
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.btn .fa-linkedin-square {
+  width: 105px;
+  background: #0a66c2;
+  border: 1px solid var(--borderColorButton);
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.btn .fa-envelope-o {
+  width: 105px;
+  background: #d93025;
+  border: 1px solid var(--borderColorButton);
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.divisor {
+  margin: 0 0 25px 0;
+  width: 100%;
+  border: 1px dotted #7294f5;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 105px;
+  border: 1px solid var(--borderColorButton);
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
 }
