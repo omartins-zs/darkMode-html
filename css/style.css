@@ -1,0 +1,7 @@
+:root * {
+  --background: #f1f1f1;
+  --backgroundContent: #fff;
+  --textColor: #000;
+  --boxShadowContent: #ccc;
+  --borderColorContent: #f1f1f1;
+}
