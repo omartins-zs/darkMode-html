@@ -30,7 +30,7 @@
                     <p>Desenvolvedor Back-End Apaixonado por tecnologia</p>
                 </div>
 
-                 <div class="redes-sociais">
+                <div class="redes-sociais">
                     <a href="https://github.com/omartins-zs" target="_blank" class="btn-github">
                         <i class="fa fa-github"></i> Github
                     </a>
@@ -44,6 +44,23 @@
             </div>
         </div>
     </header>
+    <script>
+        document.querySelector('#darkMode').addEventListener('change', function (e) {
+            if (e.target.checked) {
+                document.documentElement.style.setProperty('--background', '#000');
+                document.documentElement.style.setProperty('--backgroundContent', '#1d1c1c');
+                document.documentElement.style.setProperty('--boxShadowContent', '#5d5656');
+                document.documentElement.style.setProperty('--borderColorButton', '#000');
+                document.documentElement.style.setProperty('--textColor', '#FFF');
+            } else {
+                document.documentElement.style.setProperty('--background', '#f1f1f1');
+                document.documentElement.style.setProperty('--backgroundContent', '#FFF');
+                document.documentElement.style.setProperty('--boxShadowContent', '#CCC');
+                document.documentElement.style.setProperty('--borderColorButton', '#f1f1f1');
+                document.documentElement.style.setProperty('--textColor', '#000');
+            }
+        });
+    </script>
 </body>
 
 </html>
