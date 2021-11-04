@@ -88,7 +88,14 @@ p {
   margin-top: 25px;
 }
 
-.btn .fa-github {
+.divisor {
+  margin: 0 0 25px 0;
+  width: 100%;
+  border: 1px dotted #7294f5;
+  border-radius: 10px;
+}
+
+.btn-github {
   width: 105px;
   background: #0e1117;
   border: 1px solid var(--borderColorButton);
@@ -99,7 +106,8 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.btn .fa-linkedin-square {
+
+.btn-linkedin {
   width: 105px;
   background: #0a66c2;
   border: 1px solid var(--borderColorButton);
@@ -110,7 +118,7 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.btn .fa-envelope-o {
+.btn-email {
   width: 105px;
   background: #d93025;
   border: 1px solid var(--borderColorButton);
@@ -121,20 +129,6 @@ p {
   color: #fff;
   cursor: pointer;
 }
-
-.divisor {
-  margin: 0 0 25px 0;
-  width: 100%;
-  border: 1px dotted #7294f5;
-  border-radius: 10px;
-}
-
-.btn {
-  width: 105px;
-  border: 1px solid var(--borderColorButton);
-  padding: 7px;
-  margin-bottom: 10px;
-  border-radius: 12px;
-  text-align: center;
-  cursor: pointer;
+.fa {
+  margin-right: 6px;
 }
