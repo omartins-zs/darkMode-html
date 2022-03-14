@@ -2,6 +2,10 @@
 
 
 
+<p align="center">
+<img src="img/darkMode-html.gif"/>
+</p>
+<br>
 
 * Repositorio de referencia [Douglash93](https://github.com/douglash93/darkmode-css)
 * Imagem utilizada de [Picsum](https://picsum.photos/)
