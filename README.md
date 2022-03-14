@@ -1,4 +1,6 @@
-<h1 align="center">Dark Mode<img align="right" height="40" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg"></h1>
+<h1 align="center">Dark Mode<img align="right" height="40" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"> <img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain.svg"> <img align="right" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg"></h1>
+
+
 
 
 * Repositorio de referencia [Douglash93](https://github.com/douglash93/darkmode-css)
